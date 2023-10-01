@@ -1,0 +1,336 @@
+body {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#section_text_2 {
+    width: 100%;
+    height: 120px;
+    background-color: #E8E8E8;
+}
+
+#section_text_2 .alpha {
+    float: left;
+}
+
+#section_text_2 .alpha img {
+    width: 174px;
+}
+
+#section_text_2 .container {
+    padding-top: 35px;
+}
+
+#section_text_2 .right_text {
+    float: right;
+}
+
+#section_text_2 .omega a {
+    color: white;
+    background-color: rgb(247 120 37);
+    width: 100%;
+    padding: 16px;
+    border-radius: 3px;
+
+}
+
+#section_text_2 {
+    height: 120px;
+}
+
+#section_header_1 .container {
+    margin-top: 32px;
+}
+
+#navbar-collapse-02 {
+    margin-left: -90px;
+}
+
+.right_socials {
+    float: right;
+    margin-top: -15px;
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-icons li {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.navbar-left {
+    display: flex;
+    margin-left: 0;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.navbar-left ul {
+}
+
+.navbar-left li {
+    margin-left: 56px;
+    font-size: 20px;
+}
+
+.navbar-left li a {
+    color: hsl(0deg 3.64% 51.57%);
+    font-weight: 600;
+}
+
+#section_slider {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #E8E8E8;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: transparent;
+}
+
+#section_gym_4 {
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+
+#section_gym_4 .top_padding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.part_st {
+    margin-left: 13px;
+    text-align: center;
+}
+
+.logo_style {
+    border-radius: 50%;
+}
+
+.gym_text {
+    text-align: justify;
+    width: 56%;
+    margin-left: 100px;
+}
+
+.text_gym_style {
+    margin-bottom: 44px;
+}
+
+.link_3_btn a {
+    color: white;
+    background-color: rgb(247 120 37);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 3px;
+}
+
+.gym_st {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gym_text {
+    font-size: 16px;
+    color: #adabaa;
+}
+
+#section_intro_title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E8E8E8;
+}
+
+#section_intro_title .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section_intro_title .column {
+    width: 269px;
+    height: 470px;
+    border: lightgray solid 4px;
+    text-align: center;
+    background-color: white;
+}
+
+#section_intro_title .blue_text {
+    color: rgb(45 192 232);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+#section_intro_title .orange {
+    color: rgb(247 120 37);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.flat_pricing_list {
+    padding-left: 0;
+    margin-top: 52px;
+}
+
+.big_title {
+    margin-bottom: 0;
+}
+
+#section_intro_title .light_gray strong {
+    color: #878787;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.flat_pricing_list .editContent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(163 158 159);
+}
+
+.flat_pricing_list li {
+    margin-bottom: 45px;
+}
+
+#section_intro_title .active_bg_open {
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(247 120 37);
+    width: 100%;
+    padding: 20px 24px;
+    border-radius: 3px;
+}
+
+#section_intro_title .blue_bg {
+    background-color: rgb(45 192 232);
+}
+
+#section_party_3 {
+    color: white;
+    background-color: #292929;
+    text-align: center;
+}
+
+#section_party_3 .sixteen {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+#section_party_3 .text_input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    border: #292929 solid 1px;
+    background-color: rgb(21 21 21);
+}
+
+#section_party_3 .headtext_style {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.segment {
+    width: 75px;
+    border: rgb(28 143 245) solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.subtext_style {
+    color: rgb(119 121 121);
+    font-weight: 600;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+#contact_form input {
+    margin-bottom: 24px;
+    width: 86%;
+    font-size: 22px;
+    border-radius: 5px;
+    height: 60px;
+}
+
+#submit_btn_15 {
+    margin-top: 8px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(38 119 230);
+    width: 86%;
+    padding: 20px 24px;
+    border-radius: 5px;
+    margin-bottom: 44px;
+}
+
+#submit_btn_15 span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#hidden_pix_15 {
+    display: none;
+}
+
+#section_party_4 {
+    font-weight: 600;
+    background-color: rgb(21 21 21);
+    color: rgb(119 121 121);
+}
+
+#section_party_4 .sixteen {
+    font-size: 12px;
+    margin-left: -39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.soc_icons {
+    float: right;
+}
+
+.socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixfort_st {
+    font-weight: 600;
+    color: rgb(27 140 245);
+}
+
+
