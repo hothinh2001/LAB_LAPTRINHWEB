@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    width: 100%;
+    height: 54px;
+}
+
+.nav {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E0E0E0;
+    border-bottom: solid 2px #8B0000;
+    border-left: solid 8px #8B0000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav .navbar .navbar-item:hover {
+    padding: 20px;
+    background-color: #8B0000;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #E0E0E0;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.nav .navbar .product:hover .dropdown {
+    display: block;
+}
+
+#contact {
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 756px;
+}
+
+#contact .container_form {
+    border: solid 12px #E6E6E6;
+}
+
+#contact .container_form .form-contact {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#contact .container_form .contact_input {
+    height: 32px;
+    width: 100%;
+}
+
+#contact .container_form .header-contact {
+    text-align: center;
+}
+
+#contact .container_form .form-contact .contact {
+    margin-bottom: 16px;
+}
+
+.contact_item {
+    background-color: #F7F7F7;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.contact_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_input, .phone_input {
+    width: 48%;
+}
+
+.title_input {
+    font-size: 10px;
+}
+
+.contact_select {
+    border: none;
+    background-color: #F7F7F7;
+    margin-left: -4px;
+    font-size: 16px;
+}
+
+.contact_textarea {
+    height: 100px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    color: #F7F7F7;
+}
+
+.contact_button {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    border: none;
+    background-color: #333333;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.contact_btn {
+    margin-right: 10px;
+    color: white;
+}
+
+/*Account*/
+#account {
+    margin-top: 50px;
+    height: 800px;
+}
+
+.color_green {
+    color: #7ED321;
+}
+
+#account h2 {
+    margin-left: 80px;
+}
+
+#account .container {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: lightgray solid 1px;
+    width: 650px;
+
+}
+
+.form_input {
+    justify-content: start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    width: 75%;
+}
+
+.form_format {
+    display: flex;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.content_input {
+    margin: 20px;
+}
+
+.icon_input {
+    margin-left: 19px;
+    width: 8%;
+    height: 31px;
+    border-right: #9C9C9C solid 1px;
+}
+
+.icon_input i {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.form_date_gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px
+}
+
+.date_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.date_format {
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.account_title_input {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.date .date_format {
+    margin-left: 8px;
+}
+
+.date .date_form {
+    margin-left: 37px;
+}
+
+.date_day, .date_year, .date_month {
+    width: 65px;
+}
+
+.date_day input, .date_year input, .date_month input {
+    margin: 16px;
+}
+
+.gender_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.gender_male {
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 110px;
+}
+
+.gender_male input {
+    padding: 16px;
+}
+
+.payment {
+    margin-left: 80px;
+    margin-left: 80px;
+}
+
+.payment_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: -90px;
+}
+
+.payment_credit {
+    display: flex;
+}
+
+.payment_credit_input button {
+    height: 49px;
+    width: 240px;
+    margin-right: -3px;
+    margin-left: -4px;
+    background-color: #7ED321;
+    color: white;
+    border-radius: 5px;
+}
+
+.payment_paypal button {
+    height: 49px;
+    width: 240px;
+    color: #9C9C9C
+}
+
+.payment_credit_input i, .payment_paypal i {
+    margin-right: 6px;
+}
+
+.card_form {
+    margin-top: 16px;
+}
+
+.card_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card {
+    width: 75%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#card .icon_input {
+    padding-right: 18px;
+}
+
+#card .card_form {
+    width: 100%;
+}
+
+#card .card_info_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .card_date select {
+    padding: 20px;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+    width: 110px;
+}
+
+#footer {
+    width: 75%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#footer label {
+    font-size: 15px;
+    color: #9C9C9C;
+}
+
+.checkbox {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-top: -16px;
+    margin-right: 10px;
+}

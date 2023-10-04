@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #8BB1F2, #BD86EB);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#signIn_form {
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+
+.container {
+    width: 336px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signIn_form .container h2 {
+    padding-top: 72px;
+    padding-bottom: 24px;
+}
+
+.form_input input {
+    width: 66%;
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding-left: 16px;
+    margin-bottom: 24px;
+    box-shadow: lightgray 0px 0px 20px;
+}
+
+#signIn_form .container button {
+    width: 32%;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #BD59D7;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    box-shadow: lightgray 0px 0px 20px;
+}
+
+.icon_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: lightgray 1px 3px 7px;
+}
+
+.icon i {
+    margin-top: 14px;
+}
+
+.text_social {
+    color: #D6D6D6;
+}
+
+.links {
+    margin-top: 86px;
+    padding-bottom: 32px;
+}
