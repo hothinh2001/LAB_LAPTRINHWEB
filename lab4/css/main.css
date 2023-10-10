@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    width: 100%;
+    height: 54px;
+}
+
+.nav {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E0E0E0;
+    border-bottom: solid 2px #8B0000;
+    border-left: solid 8px #8B0000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav .navbar .navbar-item:hover {
+    padding: 20px;
+    background-color: #8B0000;
+    cursor: pointer;
+}
+
+#bai2 .container {
+    text-align: center;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#bai2 form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#bai3 {
+    padding-top: 124px;
+    margin-bottom: 300px;
+}
+
+#bai3 .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+textarea, input[type="text"], button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#bai3 button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,279 +1,289 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 
 body {
-    color: #fff;
-    background: #1b1f24;
+  color: #fff;
+  background: #1b1f24;
 }
 
-
 nav .containerss {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 260px;
-    background: transparent;
-    transition: all .50s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 260px;
+  background: transparent;
+  transition: all 0.5s ease;
 }
 
 nav #navbar-collapse-02 ul {
-    display: flex;
-    margin-left: 10px;
+  display: flex;
+  margin-left: 10px;
 }
 
 nav #navbar-collapse-02 ul li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 nav #navbar-collapse-02 ul li a {
-    color: beige;
+  color: beige;
 }
 
 nav #navbar-collapse-02 ul li .text_span {
-    color: rgb(216, 177, 4);
+  color: rgb(216, 177, 4);
 }
 
 .mask {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .context_style {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* Canh giữa theo chiều dọc */
-    align-items: center;
-    /* Canh giữa theo chiều ngang */
-    height: 100%;
-    /* Đảm bảo nội dung căn giữa theo chiều dọc */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Canh giữa theo chiều dọc */
+  align-items: center;
+  /* Canh giữa theo chiều ngang */
+  height: 100%;
+  /* Đảm bảo nội dung căn giữa theo chiều dọc */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .has-video {
-    /* Đảm bảo nội dung căn giữa theo chiều dọc */
-    position: relative;
+  /* Đảm bảo nội dung căn giữa theo chiều dọc */
+  position: relative;
 }
 
 .context_style .title_style span {
-    font-weight: 600;
-    font-size: 40px;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .subtitle_style {
-    margin: 24px;
-    text-align: center;
-    width: 73%;
+  margin: 24px;
+  text-align: center;
+  width: 73%;
 }
 
 .section_video video {
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    opacity: 0.7;
-    /* Điều chỉnh mức độ mờ tùy thích, 1 là hiển thị hoàn toàn, 0 là ẩn hoàn toàn */
-    z-index: 0;
-    /* Đảm bảo phần này nằm sau phần content */
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  opacity: 0.7;
+  /* Điều chỉnh mức độ mờ tùy thích, 1 là hiển thị hoàn toàn, 0 là ẩn hoàn toàn */
+  z-index: 0;
+  /* Đảm bảo phần này nằm sau phần content */
 }
 
 .email_subscribe {
-    width: 400px;
+  width: 400px;
 }
 
 .email_subscribe input {
-    margin: 10px;
-    width: 229px;
-    height: 30px;
+  margin: 10px;
+  width: 229px;
+  height: 30px;
 }
 
 .email_subscribe button {
-    width: 120px;
-    height: 30px;
-    font-size: 12px;
-    background-color: #e9da0d;
-    border: none;
-    border-radius: 2px;
+  width: 120px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #e9da0d;
+  border: none;
+  border-radius: 2px;
 }
 
 .note_st {
-    margin-top: 35px;
-    font-size: 12px;
+  margin-top: 35px;
+  font-size: 12px;
 }
 
 #contact_form {
-    border: 10px solid black;
-    background-color: black;
-    opacity: 0.8;
-    border-radius: 5px;
+  border: 10px solid black;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 #section_university_5 {
-    color: black;
+  color: black;
 }
 
 #section_university_5 .sixteen {
-    display: flex;
-    justify-items: center;
+  display: flex;
+  justify-items: center;
 }
 
 #section_university_5 .container {
-    margin-right: 250px;
-    margin-left: 250px;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 
 #section_university_5 .sixteen {
-    padding-top: 72px;
+  padding-top: 72px;
 }
 
 #section_university_5 .omega {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .icon_st {
-    margin: 32px;
+  margin: 32px;
 }
 
 .text_st {
-    margin-top: -7px;
-    margin-bottom: 14px;
-    font-size: 20px;
+  margin-top: -7px;
+  margin-bottom: 14px;
+  font-size: 20px;
 }
 
 .title-style {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .text-style {
-    color: rgb(179 179 179);
-    margin-bottom: 10px;
-    margin-top: 10px;
+  color: rgb(179 179 179);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .substyle {
-    padding: 21px;
+  padding: 21px;
 }
 
 #contact_form2 {
-    text-align: center;
+  text-align: center;
 }
 
 #contact_form2 input {
-    border: none;
-    width: 96%;
-    height: 45px;
-    margin-bottom: 24px;
+  border: none;
+  width: 96%;
+  height: 45px;
+  margin-bottom: 24px;
 }
 
 #countries {
-    margin-bottom: 24px;
-    width: 363px;
-    height: 45px;
+  margin-bottom: 24px;
+  width: 363px;
+  height: 45px;
 }
 
 #submit_btn_6 {
-    font-size: 16px;
-    color: white;
-    border-radius: 3px;
-    border: none;
-    background-color: rgb(124 197 118);
-    width: 363px;
-    height: 45px;
+  font-size: 16px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(124 197 118);
+  width: 363px;
+  height: 45px;
+  cursor: pointer;
+}
+#submit_btn_6:hover {
+  background-color: rgb(41, 168, 30);
 }
 
-
 form #subscribe_btn_1 {
-    color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+#subscribe_btn_1:hover {
+    background-color: #7b7406;
+  }
+#result {
+  display: none;
 }
 
 .pixfort_university_6 {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-
 .container .psingle_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .psingle_item .subject_st {
-    color: rgb(179 179 179);
-    font-size: 13px;
-    font-weight: 400;
+  color: rgb(179 179 179);
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .join_us_section {
-    justify-content: center;
-    margin: -4px;
+  justify-content: center;
+  margin: -4px;
 }
 
 .sixteen .six {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 #section_ecourse_7 {
-    background-color: #E6E6E6;
-    height: 80px;
+  background-color: #e6e6e6;
+  height: 80px;
 }
 
 .foot_st {
-    color: #A1A1A1;
-    padding-top: 40px;
-    font-size: 12px;
+  color: #a1a1a1;
+  padding-top: 40px;
+  font-size: 12px;
 }
 
 .bg_foot {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #section_ecourse_7 .container {
-    margin-left: 250px;
-    margin-right: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .pixfort_st {
-    font-weight: 600;
-    color: #674397;
+  font-weight: 600;
+  color: #674397;
 }
 
 .socbuttons {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .bottom-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottom-icons a {
-    margin: 10px 5px;
+  margin: 10px 5px;
 }
 
 .likes_st {
-    margin-right: 12px;
+  margin-right: 12px;
+}
+.loadButton {
+  padding: 20px;
 }
