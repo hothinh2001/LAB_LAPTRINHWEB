@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="contact">
+      <div class="container_form">
+        <div class="header-contact">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="form-contact">
+          <div class="contact_2 contact">
+            <div class="contact_item">
+              <div class="name_input title_input">FULL NAME *</div>
+              <div class="input">
+                <input
+                  id="fullname"
+                  class="contact_input"
+                  type="text"
+                  placeholder="Enter your full name"
+                />
+              </div>
+              <div id="validateFN"></div>
+            </div>
+          </div>
+          <div class="contact_3 contact">
+            <div class="email_input title_input">
+              <div class="contact_item">
+                <div class="name_input">EMAIL *</div>
+                <div class="input">
+                  <input
+                    id="email"
+                    class="contact_input"
+                    type="text"
+                    placeholder="Enter your Email"
+                  />
+                </div>
+                <div id="validateEM"></div>
+              </div>
+            </div>
+            <div class="phone_input title_input">
+              <div class="contact_item">
+                <div class="name_input">PHONE</div>
+                <div class="input">
+                  <input
+                    id="phone"
+                    class="contact_input"
+                    type="text"
+                    placeholder="Enter your Phone"
+                  />
+                </div>
+                <div id="validatePhone"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact_4 contact">
+            <div class="contact_item">
+              <div class="needed_input title_input">NEEDED SERVICES *</div>
+              <div class="input">
+                <select class="contact_input contact_select">
+                  <option value="">Please Chooses</option>
+                  <option value="">Select Services</option>
+                  <option value="">Select Services</option>
+                  <option value="">Select Services</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="contact_5 contact">
+            <div class="contact_item">
+              <div class="message_input title_input">MASSAGE</div>
+              <div class="input">
+                <textarea
+                  class="contact_textarea"
+                  type="text"
+                  placeholder="Enter your full name"
+                >
+                </textarea>
+              </div>
+            </div>
+          </div>
+          <div class="contact_6 contact">
+            <div class="contact_button">
+              <div class="contact_btn">Submit</div>
+              <div class="icon_submit">
+                <span
+                  ><i
+                    class="fa-sharp fa-solid fa-right-long"
+                    style="color: #ffffff"
+                  ></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Validate FULL NAME field
+        $("#fullname").blur(function () {
+          var fullname = $(this).val();
+          if (fullname.trim() === "") {
+            $("#validateFN").text("Full name is required.");
+            $("#validateFN").css("color", "red");
+            $("#fullname").css("border", "red solid 1px");
+          } else {
+            $("#validateFN").text("");
+          }
+        });
+
+        // Validate EMAIL field
+        $("#email").blur(function () {
+          var email = $(this).val();
+          // Thêm logic kiểm tra định dạng email ở đây nếu cần
+          if (email.trim() === "") {
+            $("#validateEM").text("Email is required.");
+            $("#validateEM").css("color", "red");
+            $("#validateEM").css("font-size", "12px");
+            $("#email").css("border", "red solid 1px");
+          } else {
+            $("#validateEM").text("");
+          }
+        });
+
+        // Validate PHONE field
+        $("#phone").blur(function () {
+          var phone = $(this).val();
+          // Thêm logic kiểm tra định dạng số điện thoại ở đây nếu cần
+          if (phone.trim() === "") {
+            $("#validatePhone").text("Phone is required.");
+            $("#validatePhone").css("font-size", "12px");
+            $("#validatePhone").css("color", "red");
+            $("#phone").css("border", "red solid 1px");
+          } else {
+            $("#validatePhone").text("");
+          }
+          $("#phone").css("border", "green solid 1px");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const regex = new RegExp(text_two, 'gi');
                 const result = text_one.match(regex);
                 const count = result.length;
-                resultDiv.innerHTML = `Xuất hiện ${count} lần`;
+                resultDiv.innerHTML = `${text_two} xuất hiện ${count} lần`;
             } else {
                 resultDiv.innerHTML = `Không tìm thấy kết quả`;
             }

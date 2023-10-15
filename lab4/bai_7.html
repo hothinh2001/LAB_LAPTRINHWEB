@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bai_7.css" />
+    <title>Button Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Button Game</h1>
+      <div class="buttons-container" id="buttons-container">
+        <!-- Generate buttons with numbers from 1 to 64 -->
+      </div>
+      <div id="message" class="message">Click the buttons in order!</div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttonsContainer = document.getElementById("buttons-container");
+        const message = document.getElementById("message");
+        const buttonsCount = 64;
+        let currentButton = 1;
+
+        // Tạo một mảng chứa các số từ 1 đến 64
+        const numbers = Array.from({ length: buttonsCount }, (_, i) => i + 1);
+
+        // Trộn ngẫu nhiên các số trong mảng
+        for (let i = numbers.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+        }
+
+        // Generate buttons with shuffled numbers
+        for (let i = 0; i < buttonsCount; i++) {
+          const button = document.createElement("button");
+          button.textContent = numbers[i];
+          button.addEventListener("click", function () {
+            if (parseInt(button.textContent) === currentButton) {
+              button.disabled = true; // Vô hiệu hóa button
+              currentButton++;
+              if (currentButton > buttonsCount) {
+                message.textContent =
+                  "Congratulations! You clicked all buttons in order!";
+              } else {
+                message.textContent = "";
+              }
+            } else {
+              message.textContent = "Wrong button! Try again.";
+            }
+          });
+          buttonsContainer.appendChild(button);
+        }
+      });
+    </script>
+  </body>
+</html>

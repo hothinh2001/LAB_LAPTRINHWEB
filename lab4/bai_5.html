@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      img {
+        transition: transform 1s;
+      }
+    </style>
+    <div class="container">
+      <img id="img" src="image/xe.jpg" alt="hinh nen" />
+    </div>
+
+    <script>
+      let degree = 0;
+      setInterval(function () {
+        const image = document.getElementById("img");
+        image.style.transform = `rotate(${(degree += 15)}deg)`;
+      }, 2000); // Xoay sau 2 giây
+    </script>
+  </body>
+</html>
